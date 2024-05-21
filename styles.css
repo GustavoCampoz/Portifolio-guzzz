@@ -58,7 +58,7 @@ body{
 }
 
 .nav-bar{
-  max-width: 350px;
+  max-width: 450px;
   width: 100%;
 }
 
@@ -407,6 +407,7 @@ body{
   background-color: var(--color-black);
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .projects-title{
@@ -589,3 +590,65 @@ body{
   transition: color .3s ease;
 }
 
+#experience {
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-title {
+  margin: 3rem;
+  padding: 1rem;
+  font-size: 3rem;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem; /* Espaçamento entre os itens de experiência */
+}
+
+.experience-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--color-white);
+  padding: 2rem; /* Aumenta o preenchimento */
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experience-logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-logo img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.experience-info {
+  flex: 3;
+  padding-left: 1.5rem;
+}
+
+.experience-info h3 {
+  margin: 0;
+  font-size: 1.75rem; /* Aumenta o tamanho da fonte do título da experiência */
+  color: var(--color-black);
+}
+
+.experience-info p {
+  margin: 0.5rem 0; /* Adiciona mais espaçamento entre os parágrafos */
+  color: var(--color-black);
+  font-size: 1.25rem; /* Aumenta o tamanho da fonte do texto */
+}
